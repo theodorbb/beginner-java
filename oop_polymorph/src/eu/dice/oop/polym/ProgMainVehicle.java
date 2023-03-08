@@ -14,7 +14,6 @@ public class ProgMainVehicle {
 		Ship s = new Ship(15000, 100, 321);
 		v = c;
 		System.out.println(v.display());
-		//peste 2000 de linii de cod
 		v = s;
 		System.out.println(v.display());
 		
@@ -27,8 +26,7 @@ public class ProgMainVehicle {
 		} catch(ClassCastException cce) {
 			cce.printStackTrace();
 		}
-		//Rolul lui try-catch este ca instructiunile 
-		//care urmeaza sa mearga
+		
 		
 		//3.
 		Movement mObj = new Car(2800, 5); 
@@ -41,8 +39,6 @@ public class ProgMainVehicle {
 			e.printStackTrace();
 		}
 		System.out.println("No Cars = " + Car.getNoCars());
-		
-		//interfata e tip de data declarativ 
 		
 				
 		System.out.println("main prog finished");
